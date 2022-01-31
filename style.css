@@ -10,9 +10,12 @@
     font-family: 'Secular One';
 }
 
+
 body {
     font-size: 100%;
     background-image:url('fundo.jpg') ;
+    background-size: cover;
+    
 }
 
 nav {
@@ -57,13 +60,13 @@ nav {
     flex-direction: row;
     justify-content:space-around;
     padding-top: 32px;
+    padding-bottom: 24px;
 }
 
-.conteudo-frase {
+.frase-antes-rodape {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 24px;
 }
 
 .frase {
@@ -74,7 +77,6 @@ nav {
 .rodapé {
     border-top: 1px solid var(--row-light);
     margin-top: 20px;
-    margin-bottom: 24px;
     padding-top: 24px;
     text-align: center;
 }
@@ -95,7 +97,7 @@ li {
 }
 
 img {
-    width: 40px;
+    width: 24px;
 
 }
 
