@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Secular+One&display=swap');
 
 *{
     margin: 0;
@@ -15,17 +15,17 @@ body {
     background-image:url('fundo.jpg') ;
 }
 
+nav {
+    display: flex;
+    gap: 32px;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
-}
-
-.cabecalho-menu {
-    display: flex;
-    gap: 32px;
 }
 
 .conteudo {
@@ -59,11 +59,54 @@ body {
     padding-top: 32px;
 }
 
-.rodapé {
+.conteudo-frase {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 24px;
 }
+
+.frase {
+    font-family: 'Italianno', cursive;
+    font-size: 26px;
+}
+
+.rodapé {
+    border-top: 1px solid var(--row-light);
+    margin-top: 20px;
+    margin-bottom: 24px;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+img {
+    width: 40px;
+
+}
+
+.foto {
+    width: 287px ;
+}
+
+
+
+
+
+
 
 
